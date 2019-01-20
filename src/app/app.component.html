@@ -1,21 +1,118 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header class="header">
 
-<router-outlet></router-outlet>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-12 col-xs-12 col-md-12 col-lg-10 ">
+
+        <nav class="navbar  navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse div-nav-link " id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <div id="idDivHome">
+                <a class="nav-item nav-link page-links" href="#">Home <span class="sr-only">(current)</span></a>
+              </div>
+              <div id="idDivAbout">
+                <a class="nav-item nav-link page-links" href="#">About</a>
+              </div>
+              <div id="idDivProduct">
+                <a class="nav-item nav-link page-links" href="#">Products</a>
+              </div>
+              <div id="idDivContact">
+
+                <a class="nav-item nav-link page-links" href="#">Contact Us</a>
+              </div>
+
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+<app-home></app-home>
+
+
+
+
+<section>
+
+  <hr>
+
+  <footer>
+
+    <div class="container divFooter text-center">
+      <div class="row">
+        <div class="divFacebook col-lg-4">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f fa-4x"></i></a>
+        </div>
+        <div class="divInstagram col-lg-5">
+          <a href="#" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+        </div>
+        <div class="divAmazon col-lg-3">
+          <a href="#" target="_blank"><i class="fab fa-amazon fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footerDetails">
+
+      <div class="row">
+        <div class="footerLogoImg col-lg-3">
+          <a href="#"><img src="https://www.ubackground.com/_ph/18/679163238.jpg" alt="logo"></a>
+        </div>
+
+        <div class="footerLegal col-lg-3">
+          <header>
+            <h4>Legal</h4>
+          </header>
+          <div class="legalTerms">
+            <a href="#" target="_blank">Terms & Conditions</a><br /><br />
+            <a href="#" target="_blank">Privacy Policy</a><br /><br />
+            <a href="#" target="_blank">Return and Exchange policy</a>
+          </div>
+
+        </div>
+
+        <div class="footerAbout col-lg-3">
+
+          <header>
+            <h4>About</h4>
+          </header>
+          <div class="aboutDetails">
+            <a href="#" target="_blank">Home</a><br /><br />
+            <a href="#" target="_blank">Who are We?</a><br /><br />
+            <a href="#" target="_blank">Contact Us</a>
+          </div>
+
+        </div>
+
+        <div class="footerConnect col-lg-3">
+
+          <header>
+            <h4>Connect with us</h4>
+          </header>
+          <div class="connectDetails">
+            <a href="#" target="_blank">Harish Indalkar</a><br /><br />
+            <a href="#" target="_blank">Harish Indalkar</a><br /><br />
+            <a href="#" target="_blank">Harish Indalkar</a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+</section>

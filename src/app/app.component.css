@@ -1,0 +1,107 @@
+/* ------------------------------------------------------------------------ */
+/* Navigation Bar */
+/* ------------------------------------------------------------------------ */
+.div-center{
+    text-align: center;
+}
+
+ .div-nav-link{
+    padding-left:20%;
+}
+
+.page-links{
+    font-size: 20px;
+}
+
+.page-links:hover{
+
+    color:#282828 !important;
+
+}
+
+#idDivHome:hover,#idDivAbout:hover,#idDivContact:hover,#idDivProduct:hover{
+    border-top-color: #282828;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #282828;
+    border-style: solid;
+    
+}
+
+
+/* ------------------------------------------------------------------------ */
+/*Footer */
+/* ------------------------------------------------------------------------ */
+.divFacebook a,.divAmazon a,.divInstagram a{
+color:#757575;
+}
+
+footer{
+   
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#282828;
+    color: white;
+}
+
+
+
+
+hr {
+    overflow: visible; 
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: coral;
+    text-align: center;
+    width:50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+hr:after {
+    font-family: "Font Awesome 5 Free";
+   content: "\f005";
+    /* content: "§"; */
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.fa-facebook-f:hover,.fa-instagram:hover,.fa-amazon:hover {
+    color:white;
+}
+
+.divFooter{
+    padding-top:50px;
+    /* background-color:#282828; */
+}
+
+.footerDetails{
+    margin-top:70px;
+    margin-bottom:30px;
+    /* background-color:#282828; */
+}
+
+.footerLogoImg img{
+    height:150px;
+    border-radius: 50%;
+}
+
+.legalTerms,.aboutDetails,.connectDetails{
+    padding-top:15px;
+}
+
+.legalTerms a,.aboutDetails a,.connectDetails a{
+    color:#757575;
+    text-decoration: none !important;
+}
+
+.legalTerms a:hover,.aboutDetails a:hover,.connectDetails a:hover{
+    color:white !important;
+}
+
+
+

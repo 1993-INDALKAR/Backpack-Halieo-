@@ -1,0 +1,227 @@
+.vertical-align{
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Home Top Div */
+/* ------------------------------------------------------------------------ */
+
+#idHomeSection{
+    background-image: url("https://images.unsplash.com/photo-1517321579022-aa4d037c3b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+
+#idContent{
+color:white;
+}
+
+.homeLogo{
+    font-size:72px;
+    font-weight: 100;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    display: inline-block;
+    padding:0 20px 15px 20px;
+}
+
+#idContent:last-child a{
+    color:#fff;
+    font-size: 30px;
+    /* position: absolute; */
+}
+
+.shopButton{
+    width: 100px;
+    height: 40px;
+}
+
+.shopButton:hover{
+
+    background-color:  coral;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Prod details */
+/* ------------------------------------------------------------------------ */
+
+.prodDetailSec{
+
+    padding-top:20px;
+    /* background-image: url(); */
+    color: white;
+
+    /* The image used */
+  /* background-image: url("https://www.redwallpapers.com/public/redwallpapers-large-thumb/gray-and-red-hiking-backpack-free-stock-photo-image-wallpaper.jpeg"); */
+  background-image: url("https://cdn8.bigcommerce.com/s-qb5zncdqc6/product_images/theme_images/gr1-homepage-april.jpg?t=1547653015");
+  /* background-image: url("https://www.redwallpapers.com/public/redwallpapers-large-thumb/photography-of-man-in-black-hooded-jacket-and-red-backpack-facing-snow-covered-mountain-free-stock-photo-image-wallpaper.jpeg"); */
+
+  /* Set a specific height */
+  /* height: 500px;  */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5  ;
+
+}
+
+.feather p{
+    font-size:20px;;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Prod details Amazon */
+/* ------------------------------------------------------------------------ */
+.imageSection{
+    margin-top:100px;
+    margin-bottom:100px;
+    color:#282828;
+}
+.imageProp{
+
+ height:200px;
+width:200px !important;
+border-radius:2px;
+
+}
+
+.props img{
+    font-size:48px;
+    color:#282828;
+    float:left;
+    border-right:2px solid #282828;
+    padding-right:20px;
+}
+
+.props p{
+    padding-left:220px;
+}
+
+.imgTitle{
+    margin-top:24px;
+    margin-left:20px;
+    display:inline-block;
+    /* float:right; */
+   
+}
+
+.imgTitle h3{
+    font-weight:900;
+    color:#282828;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Contact Section*/
+/* ------------------------------------------------------------------------ */
+
+.contactSection{
+    height:600px;
+    background-image: url("https://static1.squarespace.com/static/54d61933e4b0fd0a1dff0ff2/t/54d934e4e4b05cea99510381/1423521031635/Contact-Us.jpg?format=1500w");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contactSection p{
+    /* position:relative; */
+    padding-top:250px;
+    padding-left:50px;
+    color:white;
+    font-size: 2.4em;
+    font-family: "MaisonNeue-medium", Arial;
+    /* transform:translateY(-50%); */
+}
+
+.contactButton{
+    box-shadow: 0 0 0 1px currentcolor inset;
+    border: 0;
+    color: #0064ff;
+    outline: none;
+    cursor: pointer;
+    background-color: Transparent;
+}
+.divContactButton{
+    display: flex;
+    margin-top: 1em;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Founder 1*/
+/* ------------------------------------------------------------------------ */
+
+
+
+.founder1{
+    background-image: url("http://media1.santabanta.com/full1/Indian%20%20Celebrities(M)/Vicky%20Kaushal/vicky-kaushal-0a.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.founder-name h3,p{
+    text-align: center;
+    position:relative;
+    top:30%;
+    /* left:-35%; */
+    /* transform:translateY(-50%); */
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    height:100vh;
+  }
+  
+  /* .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    background-image: url("http://www.bollywoodbindass.com/wp-content/uploads/2016/03/Vicky-Kaushal-HD-photos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    color: White;
+  }
+  
+  .container1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+
+  
+  .text {
+    color: White;
+   
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
